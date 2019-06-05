@@ -1,3 +1,3 @@
-console.log("all good!");
+console.log("ops!");
 
-process.exit(0);
+process.exit(1);
