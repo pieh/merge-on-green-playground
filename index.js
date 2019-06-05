@@ -1,3 +1,3 @@
-console.log("ops!");
+console.log("meaningful contribution!");
 
 process.exit(0);
