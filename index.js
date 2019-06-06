@@ -1,3 +1,3 @@
-console.log("not so meaningful contribution #3!  zzz");
+console.log("not so meaningful contribution #3!  zzz z");
 
-process.exit(0);
+process.exit(1);
