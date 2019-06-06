@@ -1,3 +1,5 @@
 console.log("not so meaningful contribution #3!  zzz z");
 
-process.exit(-1);
+setTimeout(() => {
+  process.exit(0);
+}, 30000)
