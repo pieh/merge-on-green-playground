@@ -2,4 +2,4 @@ console.log("not so meaningful contribution #3!  zzz z");
 
 setTimeout(() => {
   process.exit(0);
-}, 30000)
+}, 45000)
