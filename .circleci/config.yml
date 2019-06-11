@@ -6,8 +6,15 @@ jobs:
     steps:
       - checkout
       - run: node index.js
+  test-non-required:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      - run: node index.js
 workflows:
   version: 2
   test:
     jobs:
       - test
+      - test-non-required
