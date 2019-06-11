@@ -11,7 +11,7 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout
-      - run: node index.js
+      - run: node not-required.js
 workflows:
   version: 2
   test:
